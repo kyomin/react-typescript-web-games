@@ -1,7 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { hot } from 'react-hot-loader/root';
 
 // 컴포넌트 import
-import GuGuDan from './GuGuDan';
+import WordRelay from './WordRelay';
 
-ReactDOM.render(<GuGuDan />, document.querySelector('#root'));
+const Hot = hot(WordRelay);     // hoc(High Order Component)
+
+ReactDOM.render(<WordRelay />, document.querySelector('#root'));

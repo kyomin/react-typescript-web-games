@@ -3,8 +3,8 @@ import * as ReactDOM from 'react-dom';
 import { hot } from 'react-hot-loader/root';
 
 // 컴포넌트 import
-import WordRelay from './WordRelay';
+import NumberBaseball from './NumberBaseball';
 
-const Hot = hot(WordRelay);     // hoc(High Order Component)
+const Hot = hot(NumberBaseball);     // hoc(High Order Component)
 
-ReactDOM.render(<WordRelay />, document.querySelector('#root'));
+ReactDOM.render(<NumberBaseball />, document.querySelector('#root'));
